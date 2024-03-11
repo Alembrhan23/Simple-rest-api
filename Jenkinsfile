@@ -18,8 +18,7 @@ steps {
 
 
 
-                ssh "tool name: \'Maven\', type: \'maven\' mvn clean install"
-            }
+                sh "${MAVEN_HOME}/bin/mvn clean install"            }
         }'''
         }
       }
