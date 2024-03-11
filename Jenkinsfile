@@ -18,10 +18,10 @@ steps {
 
 
 
-                sh "${MAVEN_HOME}/bin/mvn clean install"            }
+                sh "/usr/bin/mvn clean install"            }
         }'''
-        }
       }
-
     }
+
   }
+}
